@@ -6,7 +6,8 @@ du dossier dans lequel vous souhaitez avoir les fichiers de sortie .resf, et ens
 sa méthode ecrireDonneesProteines().
 Les données .pssm.ascii , .fasta, .ss et .acc20 doivent obligatoirement etre stoquées dans les sous dossiers pssmData, fastas et
 ssAcc respectivement afin que le programme puisse lire les fichiers puisqu'on spécifie le chemin durant l'ouverture du fichier dans
-les classes correspondantes et on laisse pas le choix à l'utilisateur.
+les classes correspondantes et on laisse pas le choix à l'utilisateur, afin de garder une organization structurée quand il y a
+des milliers de fichiers à gérer comme pour nos données.
 
 Exemple d'exécution:
 
