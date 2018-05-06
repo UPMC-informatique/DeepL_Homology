@@ -12,5 +12,5 @@ une fonction dataset_construction qui prend en parametre le nom du dossier conte
 construit dans la section 2, et donne en sortie le couple (dataset, labels_dataset) sous forme de numpy arrays, afin de les utiliser dans 
 le 2D CNN
 
-Remarque: Dans le fichier test2D, il y aune fonction save_data() qui charge les donnees a l'aide de la fonction dataset_construction et les 
+Remarque: Dans le fichier datasets.py, il y aune fonction save_data() qui charge les donnees a l'aide de la fonction dataset_construction et les 
 stocke dans des fichiers binaires numpy .npy afin de les charger plus rapidement plus tard pendant l'entrainement du reseau
