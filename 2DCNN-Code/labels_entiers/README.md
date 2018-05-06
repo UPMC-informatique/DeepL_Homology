@@ -1,4 +1,4 @@
-Dans ce projet non complet encore, il y a 3 dossiers:
+Dans ce projet, il y a 3 dossiers:
 1- labels_formatting qui contient un fichier python contenant une fonction labels_to_int, qui prend en paramètre un fichier contenant des lignes du format (Nomproteine, taille proteine, famille proteine),
 et renvoie un fichier de sortie .integers contenant des lignes (nom proteine, famille proteine sous forme entier)
 
