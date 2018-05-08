@@ -79,8 +79,15 @@ public class EcrireProteineFinal {
 		construireMatrice();
 		PrintWriter p = new PrintWriter(new File(nomFic));
 		
-		for(int i=0; i<45; i++){
-			for(int j=0; j< longueurProteine; j++){
+		double[][] temp = new double[matriceFinale[0].length][matriceFinale.length];
+        for (int i = 0; i < matriceFinale.length; i++)
+            for (int j = 0; j < matriceFinale[0].length; j++)
+                temp[j][i] = matriceFinale[i][j];
+        
+        matriceFinale = temp;
+		
+		for(int i=0; i<longueurProteine; i++){
+			for(int j=0; j< 45; j++){
 				p.print(matriceFinale[i][j]);
 				p.print(" ");
 			}
